@@ -39,6 +39,26 @@ body {
     margin: 0 auto;
 }
 
+.profile-photo-container {
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-photo {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.3);
+    object-fit: cover;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.profile-photo:hover {
+    transform: scale(1.05);
+}
+
 .name {
     font-size: 3rem;
     font-weight: 700;
@@ -637,6 +657,11 @@ body {
         padding: 25px 20px;
     }
 
+    .profile-photo {
+        width: 150px;
+        height: 150px;
+    }
+
     .name {
         font-size: 2rem;
     }
@@ -733,6 +758,11 @@ body {
 }
 
 @media (max-width: 480px) {
+    .profile-photo {
+        width: 120px;
+        height: 120px;
+    }
+
     .name {
         font-size: 1.5rem;
     }
