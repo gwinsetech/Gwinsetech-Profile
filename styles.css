@@ -657,6 +657,7 @@ body {
 @media (max-width: 1200px) {
     .skills-grid {
         grid-template-columns: repeat(2, 1fr);
+        max-width: 100%;
     }
 
     .achievements-grid {
