@@ -38,7 +38,7 @@ body {
 /* Hanging Photo with Rope Effect */
 .hanging-photo-container {
     position: absolute;
-    left: 60px;
+    left: 30px;
     top: 0;
     z-index: 10;
     display: flex;
