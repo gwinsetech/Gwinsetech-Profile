@@ -746,6 +746,22 @@ body {
 
     .header {
         padding: 25px 20px;
+        overflow: visible;
+    }
+
+    .hanging-photo-container {
+        left: 20px;
+        top: 10px;
+    }
+
+    .rope {
+        height: 60px;
+    }
+
+    .photo-frame {
+        width: 120px;
+        height: 120px;
+        padding: 6px;
     }
 
     .contact-info {
@@ -849,6 +865,21 @@ body {
 }
 
 @media (max-width: 480px) {
+    .hanging-photo-container {
+        left: 10px;
+        top: 5px;
+    }
+
+    .rope {
+        height: 50px;
+    }
+
+    .photo-frame {
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+    }
+
     .hanging-photo-container {
         left: 10px;
         top: 5px;
